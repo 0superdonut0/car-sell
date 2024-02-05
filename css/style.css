@@ -1,0 +1,351 @@
+@font-face {
+    font-family: Montserrat;
+    src: url(../webfonts/Montserrat/Montserrat-VariableFont_wght.ttf);
+}
+@font-face {
+    font-family: PT Serif;
+    src: url(../webfonts/PT_Serif/PTSerif-Regular.ttf);
+}
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+}
+.main{
+    background-color: #c62314f4;
+}
+.container{
+    width: 1440px;
+    height: 680px;
+    margin: 0 auto;
+    background-image:url(../img/Rectangle\ 1.png);
+
+}
+.main__inner {
+    max-width: 1060px;
+    height: 680px;
+    margin: 0 auto;
+}
+.header {
+    margin:0 auto;
+    padding-top: 35px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+
+}
+.menu_text {
+    margin: 0;
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    padding: 6px 15px;
+}
+.menu_text:hover{
+    cursor: pointer;
+    background-color: #130E27;
+    border-radius: 5px;
+}
+span.main_span{
+
+    color:#130E27;
+}
+.main_title {
+
+    margin-top: 70px;
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 90px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 82px;
+    letter-spacing: -1.8px;
+}
+.main_text {
+    margin-top: 46px;
+    width: 494px;
+    color: #FFF;
+    font-family: PT Serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: -0.4px;
+}
+.service {
+    border: #0000 1px solid;
+    width: 1060px;
+    height: 519px;
+    margin:0 auto;
+}
+
+.container1 {
+    width: 1060px;
+    height: 519px;
+}
+.service__inner {
+    border: #0000 1px solid;
+    margin-top:50px ;
+    width: 1060px;
+    height: 399px;
+}
+.tez {
+    text-transform: uppercase;
+    font-family: Montserrat;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -1px;
+    margin: 0;
+    padding: 0;
+}
+.ser_span{
+    color: #C62314;
+}
+.highlights {
+    margin-top: 82px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+.ser_item {
+    align-items: center;
+    text-align: center;
+    width: 172px;
+}
+.logo{
+    margin-bottom: 59.1px;
+    padding: 0;
+    width: 165px;
+    height: 140.76px;
+    align-items: center;
+    flex-shrink: 0;
+}
+.service_text {
+    margin: 0;
+    padding: 0;
+    color: #161616;
+    text-align: center;
+    font-family: PT Serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: -0.6px;
+    height: 56px;
+}
+.separate {
+    background-color: #130E27;
+    margin: 0 auto;
+    padding: 0;
+}
+.container2 {
+    background-color: #130E27;
+    height: 124px;
+    width: 1060px;
+    margin: auto auto;
+}
+.separate__inner{
+    background-color: #130E27;
+    height: 124px;
+    width: 1060px;
+    margin: auto auto;
+    padding: 34px 0;
+}
+.in_sep {
+    background-color: #130E27;
+    height: 56px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.sep_text {
+    width: 611px;
+    color: #FFF;
+    font-family: PT Serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: -0.4px;
+}
+button.sep_text{
+    width: 270px;
+    height: 64px;
+    border-radius: 5px;
+    background: #C62314;
+    border: #0000 0px none;
+    text-transform: uppercase;
+    font-family: Montserrat;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    cursor: pointer;
+}
+button.sep_text:hover{
+    color: #C62314;
+    font-weight: 600;
+    background: #FFF;
+    border: #C62314 4.5px solid;
+    border-radius: 7px;
+
+
+}
+.price {
+    background: #EFEFEF;
+}
+.container3 {
+    background: #EFEFEF;
+
+    width: 1440px;
+    height: 691px;
+    margin: 0 auto;
+}
+.price__inner {
+    background: #EFEFEF;
+    width: 1060px;
+    height: 691px;
+    margin: 0 auto;
+}
+
+.price_title {
+    background: #EFEFEF;
+    margin-top: 0;
+    padding-top: 50px;
+    margin-bottom: 50px;
+    color: #130E27;
+    font-family: Montserrat;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -1px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.cards {
+    height: 460px;
+    padding: 0;
+    margin-bottom: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #161616;
+    text-transform: capitalize;
+    text-align: center;
+    font-family: PT Serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px; /* 140% */
+    letter-spacing: -0.6px;
+}
+.pr_item {
+    background: #FFF;
+    width: 340px;
+    height: 460px;
+    border-radius: 5px;
+}
+.font {
+    margin-top: 34px;
+}
+.price_of {
+    margin-top: 40px;
+    color: #C62314;
+    font-family: Montserrat;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -1px;
+}
+.pr_text {
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+.price_bt {
+    border: #0000 0px none;
+    padding: 0;
+    width: 205px;
+    height: 50px;
+    flex-shrink: 0;
+    border-radius: 5px;
+    background-color: #130E27;
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    cursor: pointer;
+}
+button.price_bt:hover{
+    color: #130E27;
+    font-weight: 600;
+    background: #FFF;
+    border: #130E27 4.5px solid;
+    border-radius: 7px;
+
+
+}
+.cards .pr_item:nth-child(2) button.price_bt{
+    background: #C62314;
+}
+.cards .pr_item:nth-child(2) button.price_bt:hover{
+    color: #C62314;
+    font-weight: 600;
+    background: #FFF;
+    border: #C62314 4.5px solid;
+    border-radius: 7px;
+}
+.rights {
+    margin: 0 auto;
+    height: 190px;
+    flex-shrink: 0;
+    background: #130E27;
+}
+.container4 {
+    margin: 0 auto;
+    width: 1440px;
+    background: #130E27;
+}
+.rights__inner {
+    padding-top: 61px;
+    margin: 0 auto;
+    width: 1060px;
+    background: #130E27;
+}
+.in_right {
+    background: #130E27;
+    display: flex;
+    justify-content: space-between;
+}
+.right_text {
+    width: 611px;
+    color: #FFF;
+    font-family: PT Serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px; /* 140% */
+    letter-spacing: -0.4px;
+    word-spacing: 4px;
+}
+.rights_span {
+    color: #C62314;
+}
+
+
